@@ -1,0 +1,64 @@
+body{
+    background-image: url(../image/bannerimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    opacity: 0.7;
+
+}
+#banner{
+    
+    width: 82%;
+    margin-left: 17%;
+    margin-top: 10%;
+
+}
+#box1{
+    width: 40%;
+    /* background-color: firebrick; */
+    float: left;
+}
+#box1 h1{
+    font-family: Colonna MT;
+    text-align: center;
+    margin-top: 83px;
+}
+#box1 img{
+    margin-left: 25%;
+}
+#box2{
+    width: 30%;
+    /* background-color: fuchsia; */
+    float: left;
+    margin-left: 20px;
+}
+#box2 h2{
+    font-family: Bahnschrift SemiBold Condensed;
+    
+    font-size: 40px;
+}
+
+#textbox{
+    float: right;
+    padding: 7px;
+    border-radius: 10px;
+}
+#box2 a{
+    
+    color: mediumblue;
+    font-size: 18px;
+}
+label{
+    float: left;
+}
+#submit{
+    background-color:green;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: whitesmoke;
+    margin-left: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+

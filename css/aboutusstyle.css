@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo{
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+#logo img{
+  width: 40%;
+  height: 90px;
+}
+#details{
+width: 40%;
+float: right;
+margin-top: 20px;
+font-size: 17px;
+}
+#details a{
+text-decoration: none;
+color: black;
+}
+#contact{
+padding: 20px;
+}
+#details a{
+margin-left: 20px;
+}
+#details i{
+padding: 10px;
+}
+#menubar{
+  clear: both;
+}
+ul{
+  background-color: #00275E;
+  height: 55px;
+  width: 100%;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #A8B1B8;
+  font-size: 20px;
+  padding: auto;
+  float: left;
+  font-size: 23px;
+  text-align: center;
+  padding-right:70px ;
+  margin-left: 80px;
+  margin-top: 12px;
+}
+ul li a:hover{
+  color: white;
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+#menubar ul li i{
+  color: #A8B1B8;
+  font-size: 25px;
+  margin-left: -20px;
+}#para{
+  font-size: 22px;
+  color: #A8B1B8;
+  font-family: Bodoni MT;
+  margin: 10px 20px;
+}
+#para h2{
+  text-align: center;
+  padding: 10px;
+}
+#container{
+  color: #A8B1B8;
+  background-color: black;
+  font-family: Bodoni MT;
+  font-size: 21px;
+  padding: 7px 200px;
+  text-align: justify;
+}
+#container i{
+  font-size: 30px;
+}
+#container h3{
+  padding: 15px;
+  text-align: center;
+
+}
+#container p{
+  padding: 15px;
+  text-indent: 20px;
+}
+#footer{
+  background-color:#00275E;
+  color: azure;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+}

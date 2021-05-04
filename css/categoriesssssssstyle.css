@@ -1,0 +1,976 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo{
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+#logo img{
+  width: 40%;
+  height: 90px;
+}
+#details{
+width: 40%;
+float: right;
+margin-top: 20px;
+font-size: 17px;
+}
+#details a{
+text-decoration: none;
+color: black;
+}
+#contact{
+padding: 20px;
+}
+#details a{
+margin-left: 20px;
+}
+#details i{
+padding: 10px;
+}
+#menubar{
+  clear: both;
+}
+ul{
+  background-color: #00275E;
+  height: 55px;
+  width: 100%;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #A8B1B8;
+  font-size: 20px;
+  padding: auto;
+  float: left;
+  font-size: 23px;
+  text-align: center;
+  padding-right:70px ;
+  margin-left: 80px;
+  margin-top: 12px;
+}
+ul li a:hover{
+  color: white;
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+#menubar ul li i{
+  color: #A8B1B8;
+  font-size: 25px;
+  margin-left: -20px;
+}
+
+
+.badge-notify{
+  background: red;
+  position: relative;
+  top: -20px;
+  right: 40px;
+  font-family: sans-serif;
+}
+#categories{
+  background-color: #000;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 25px;
+  margin-top: -1px;
+}
+#categories ul {
+  background-color: black;
+}
+#categories ul li a{
+  text-decoration: none;
+  color: #A8B1B8;
+  font-size: 20px;
+  padding: auto;
+  float: left;
+  font-size: 23px;
+  text-align: center;
+  padding-right:55px ;
+  margin-left: 120px;
+  margin-top: 12px;
+}
+h2{
+  padding: 25px;
+  font-family: Copperplate Gothic ;
+
+}
+#sample{
+  margin: 0 20px;
+}
+
+#sample h1{
+  text-align: center;
+  font-family: Copperplate Gothic ;
+  padding: 20px;
+}
+/*card1....................................................*/
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin-right: 2.7%;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card1 button:hover {
+    opacity: 0.7;
+  }
+
+/*card2....................................................*/
+
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    width: 23%;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    margin-right: 2.7%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card2 button:hover {
+    opacity: 0.7;
+  }
+
+/*card3....................................................*/
+
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    width: 23%;
+    float: left;
+    text-align: center;
+    margin-right: 2.7%;
+
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 18px;
+    padding: 10px;
+    }
+  
+  .card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card3 button:hover {
+    opacity: 0.7;
+  }
+
+/*card4....................................................*/
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: right;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card4 button:hover {
+  opacity: 0.7;
+}
+
+/*card5....................................................*/
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  font-family: arial;
+  margin-top: 3%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card5 button:hover {
+  opacity: 0.7;
+}
+
+/*card6....................................................*/
+
+
+.card6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  font-family: arial;
+  margin-right: 2.7%;
+  margin-top: 3%;
+
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+.card6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card6 button:hover {
+  opacity: 0.7;
+}
+
+/*card7....................................................*/
+
+.card7 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  margin-top: 3%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+.card7 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card7 button:hover {
+  opacity: 0.7;
+}
+
+/*card8....................................................*/
+.card8 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+width: 23%;
+float: right;
+text-align: center;
+font-family: arial;
+margin-top: 3%;
+
+}
+
+.price {
+color: grey;
+font-size: 18px;
+padding: 10px;
+}
+
+.card8 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card8 button:hover {
+opacity: 0.7;
+}
+
+/*card9....................................................*/
+.card9 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  font-family: arial;
+  margin-top: 3%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card9 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card9 button:hover {
+  opacity: 0.7;
+}
+
+/*card10....................................................*/
+
+
+.card10 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  font-family: arial;
+  margin-right: 2.7%;
+  margin-top: 3%;
+
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+.card10 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card10 button:hover {
+  opacity: 0.7;
+}
+
+/*card11....................................................*/
+
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  margin-top: 3%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+.card11 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card11 button:hover {
+  opacity: 0.7;
+}
+
+/*card12....................................................*/
+.card12 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+width: 23%;
+float: right;
+text-align: center;
+font-family: arial;
+margin-top: 3%;
+
+}
+
+.price {
+color: grey;
+font-size: 18px;
+padding: 10px;
+}
+
+.card12 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card12 button:hover {
+opacity: 0.7;
+}
+
+/*card13....................................................*/
+.card13 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  font-family: arial;
+  margin-top: 3%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card13 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card13 button:hover {
+  opacity: 0.7;
+}
+
+/*card14....................................................*/
+
+
+.card14 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  font-family: arial;
+  margin-right: 2.7%;
+  margin-top: 3%;
+
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+.card14 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card14 button:hover {
+  opacity: 0.7;
+}
+
+/*card15....................................................*/
+
+.card15 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  margin-top: 3%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+.card15 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card15 button:hover {
+  opacity: 0.7;
+}
+
+/*card16....................................................*/
+.card16 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+width: 23%;
+float: right;
+text-align: center;
+font-family: arial;
+margin-top: 3%;
+
+}
+
+.price {
+color: grey;
+font-size: 18px;
+padding: 10px;
+}
+
+.card16 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card16 button:hover {
+opacity: 0.7;
+}
+
+/*card17....................................................*/
+.card17 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  font-family: arial;
+  margin-top: 3%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card17 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card17 button:hover {
+  opacity: 0.7;
+}
+
+/*card18....................................................*/
+
+
+.card18 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  font-family: arial;
+  margin-right: 2.7%;
+  margin-top: 3%;
+
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+.card18 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card18 button:hover {
+  opacity: 0.7;
+}
+
+/*card19....................................................*/
+
+.card19 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  margin-top: 3%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+.card19 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card19 button:hover {
+  opacity: 0.7;
+}
+
+/*card20....................................................*/
+.card20 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+width: 23%;
+float: right;
+text-align: center;
+font-family: arial;
+margin-top: 3%;
+
+}
+
+.price {
+color: grey;
+font-size: 18px;
+padding: 10px;
+}
+
+.card20 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card20 button:hover {
+opacity: 0.7;
+}
+
+/*card21....................................................*/
+.card21 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  font-family: arial;
+  margin-top: 3%;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.card21 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card21 button:hover {
+  opacity: 0.7;
+}
+
+/*card22....................................................*/
+
+
+.card22 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  font-family: arial;
+  margin-right: 2.7%;
+  margin-top: 3%;
+
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+.card22 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card22 button:hover {
+  opacity: 0.7;
+}
+
+/*card23....................................................*/
+
+.card23 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2.7%;
+  margin-top: 3%;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+.card23 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card23 button:hover {
+  opacity: 0.7;
+}
+
+/*card24....................................................*/
+.card24 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+width: 23%;
+float: right;
+text-align: center;
+font-family: arial;
+margin-top: 3%;
+}
+
+.price {
+color: grey;
+font-size: 18px;
+padding: 10px;
+}
+
+.card24 button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card24 button:hover {
+opacity: 0.7;
+}
+
+#footer{
+  clear: both;
+  background-color:#00275E;
+  color: azure;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+}

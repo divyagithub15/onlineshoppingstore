@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#logo img{
+    width: 40%;
+    height: 90px;
+}
+#details{
+  width: 40%;
+  float: right;
+  margin-top: 20px;
+  font-size: 17px;
+}
+#details a{
+  text-decoration: none;
+  color: black;
+}
+#contact{
+  padding: 20px;
+}
+#details a{
+  margin-left: 20px;
+}
+#details i{
+  padding: 10px;
+}
+  #menubar{
+    clear: both;
+  }
+  ul{
+    background-color: #00275E;
+    height: 55px;
+    width: 100%;
+  
+  }
+  ul li a{
+    text-decoration: none;
+    color: #A8B1B8;
+    font-size: 20px;
+    padding: auto;
+    float: left;
+    font-size: 23px;
+    text-align: center;
+    padding-right:70px ;
+    margin-left: 80px;
+    margin-top: 12px;
+  }
+  ul li a:hover{
+    color: white;
+  }
+  ul li{
+    list-style-type: none;
+    display: inline;
+  }
+
+  #menubar ul li i{
+    color: #A8B1B8;
+    font-size: 25px;
+    margin-left: -20px;
+  }
+#banner{
+    width: 90%;
+    margin-top: 40px;
+}
+#para{
+    width: 45%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 170px;
+}
+#image{
+    width: 45%;
+    float: right;
+}
+
+h2{
+    /* color: #FF4B68; */
+    color:  #00275E;
+    padding: 10px;
+    font-size: 50px;
+    margin-left: 250px;
+
+}
+#quote{
+  color:  #0c346d;
+  
+  margin-left: 265px;
+  font-size: 22px;
+  font-weight: bolder;
+
+}
+
+#para a{
+    text-decoration: none;
+}
+h4{
+    background-color: #FF4B68;
+    width: 27%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 260px;
+    font-family: Colonna MT;
+    font-size: 20px;
+    color:  white;
+    
+}
+
+#season{
+  clear: both;
+  background-image: url(../image/season.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#season h6{
+  font-size: 35px;
+  padding-top: 210px;
+  padding-left: 65%;
+}
+#season h3{
+  padding-left: 66%;
+
+}
+#season h5{
+  background-color:#FF4B68;
+  color: aliceblue;
+  font-size: 25px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 880px;
+  margin-top: 20px;
+}
+#season a{
+  text-decoration: none;
+}
+#brand1{
+  width: 24%;
+  float: left;
+  margin-left: 2%;
+}
+
+#brand2{
+  width: 24%;
+  float: left;
+}
+#brand3{
+  width: 24%;
+  float: left;
+}
+#brand4{
+  width: 24%;
+  float: right;
+  margin-right: 2%;
+}
+
+#about {
+  background-color: black;
+}
+#about h3{
+  font-size: 23px;
+}
+#about p{
+  font-size: 17px;
+}
+#box1{
+  width: 33%;
+  height: 200px;
+  background-color: black;
+
+  float: left;
+  padding-left: 2%;
+  padding-top: 3%;
+  padding-right: 3%;
+  color: aliceblue;
+
+}
+#box2{
+  width: 32%;
+  float: left;
+  background-color: black;
+  padding-top: 3%;
+  height: 200px;
+
+}
+#box2 a{
+  text-decoration: none;
+  color: aliceblue;
+}
+#box3{
+  width: 30%;
+  float: right;
+  color: aliceblue;
+  padding-top: 3%;
+  height: 200px;
+
+  background-color: black;
+  
+}
+#box3 a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 22px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+#footer{
+  clear: both;
+  background-color: #00275E;
+  color: aliceblue;
+  font-size: 17px;
+  padding: 15px;
+  text-align: center;
+}
+
+#signout{
+  font-size: 20px;
+  background-color: rgb(183, 204, 241);
+  padding: 5px;
+  margin-left: 70px;
+}

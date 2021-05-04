@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d4bfe62e8a.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+
+    <style>
+        #banner{
+            background-image: url(./image/contact.jpeg);
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size:100%;
+            margin-top: -110px;
+            height: 500px;
+        }
+
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#logo img{
+    width: 40%;
+    height: 90px;
+}
+#details{
+  width: 40%;
+  float: right;
+  margin-top: 20px;
+  font-size: 17px;
+}
+#details a{
+  text-decoration: none;
+  color: black;
+}
+#contact{
+  padding: 20px;
+}
+#details a{
+  margin-left: 20px;
+}
+#details i{
+  padding: 10px;
+}
+  #menubar{
+    clear: both;
+  }
+  ul{
+    background-color: #00275E;
+    height: 55px;
+    width: 100%;
+  
+  }
+  ul li a{
+    text-decoration: none;
+    color: #A8B1B8;
+    font-size: 20px;
+    padding: auto;
+    float: left;
+    font-size: 23px;
+    text-align: center;
+    padding-right:70px ;
+    margin-left: 80px;
+    margin-top: 12px;
+  }
+  ul li a:hover{
+    color: white;
+  }
+  ul li{
+    list-style-type: none;
+    display: inline;
+  }
+
+  #menubar ul li i{
+    color: #A8B1B8;
+    font-size: 25px;
+    margin-left: -20px;
+  }
+
+        #container2{
+            width: 50%;
+            margin-left: 520px;
+            margin-top: 110px;
+            text-align: center;
+            color: #003366;
+
+        }
+        label{
+            font-size: 22px;
+        }
+        h1{
+            font-family: Franklin Gothic Heavy;
+            padding-top: 45px;
+        }
+        p{
+            font-size: 23px;
+            font-family: Lucida Handwriting;
+        }
+        #submit{
+            background-color: crimson;
+            padding: 6px;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        #container2 i{
+            font-size: 25px;
+            color: black;
+            padding: 10px;
+        }
+    </style>
+
+    <script>
+        function validate()
+        {
+            alert("Your message has been sent!");
+            
+        }
+    </script>
+
+</head>
+<body>
+
+  
+
+  <div id="logo">
+    <img src="./image/logo.jpeg">
+</div>
+
+<div id="details">
+
+    <i class="fas fa-envelope"></i>
+    <span id="contact">nivi.envelope@gmail.com</span>
+    <i class="fas fa-phone-alt"></i>
+    <span id="contact">+91 8667272312</span> <br>
+    
+
+    <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i>  </a>
+    <a href="https://in.pinterest.com/"><i class="fab fa-pinterest"></i>  </a>
+    <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i>  </a>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> </a>
+    
+</div>
+
+<div id="menubar">
+    <ul>
+
+        <li> <a href="./home.html">Home</a> </li>
+        <li> <a href="./Js_shopping_cart-main/categories.html">Categories</a> </li>
+        <li> <a href="./contact.html">Contact</a> </li>
+        <li> <a href="./Aboutus.html">About Us</a> </li>
+        <li> <a href="./index.html">Login</a> </li>
+        <li> <a href="./Js_shopping_cart-main/categories.html"> <i class="fas fa-shopping-cart"></i> </li> </a>
+    </ul>
+</div>
+
+  
+<div id="banner">
+    <div id="container2">
+        <h1>Get in touch!</h1> <br>
+        <form>
+            <label>Name</label>
+            <input type="text" > <br> <br>
+            <label>e-mail</label>
+            <input type="text"> <br> <br> 
+            <label>Subject</label>
+            <input type="text"> <br> <br>
+            
+            <p>How can we help?</p>
+            <textarea rows="5" cols="30 "></textarea> <br> <br>
+
+            <input id="submit" type="button" onclick="validate()" value="Submit">
+
+        </form>
+
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fas fa-envelope"></i>
+    </div>
+</div>
+</body>
+</html>
